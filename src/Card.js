@@ -15,7 +15,7 @@ const Card = () => {
     padding: 40px;
     margin: 0 auto;
     background-color: ${background};
-    transition: all 1s;
+    transition: all .7s;
     h1 {
       font-weight: 400;
       font-size: 36px;
@@ -35,10 +35,10 @@ const Card = () => {
       font-weight: 500;
       font-size: 12px;
       padding: 10px 30px;
-      margin-right: 20px;
+      margin-right: 30px;
       border: none;
       border-radius: 50px;
-      cursor: pointer;
+      cursor: crosshair;
       outline: none;
     }
   `;
@@ -70,8 +70,20 @@ const Card = () => {
         >
           Black
         </button>
-        <button className={blueButton}>Blue</button>
-        <button className={yellowButton}>Yellow</button>
+        <button
+          onMouseEnter={() => setStyle('#1d499b', '#fdfdfd')}
+          onMouseOut={() => setStyle()}
+          className={blueButton}
+        >
+          Blue
+        </button>
+        <button
+          onMouseEnter={() => setStyle('#f9d648', '#424242')}
+          onMouseOut={() => setStyle()}
+          className={yellowButton}
+        >
+          Yellow
+        </button>
       </div>
     </div>
   );
