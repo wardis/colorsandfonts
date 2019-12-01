@@ -1,23 +1,26 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { css } from 'emotion';
 
 const Card = () => {
+  const [background, setBackground] = useState('#fdfdfd');
+  const [font, setFont] = useState('#424242');
+
   const card = css`
     max-width: 600px;
     padding: 40px;
     margin: 0 auto;
-    background-color: #fdfdfd;
+    background-color: ${background};
     h1 {
       font-weight: 400;
       font-size: 36px;
       margin-bottom: 10px;
-      color: #424242;
+      color: ${font};
     }
     p {
       font-size: 16px;
       font-weight: 300;
       margin-bottom: 20px;
-      color: #424246;
+      color: ${font};
     }
   `;
 
