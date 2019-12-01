@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/colorsandfonts/static/css/main.14e0d005.chunk.css",
+    "main.js": "/colorsandfonts/static/js/main.cce13cf2.chunk.js",
+    "main.js.map": "/colorsandfonts/static/js/main.cce13cf2.chunk.js.map",
+    "runtime-main.js": "/colorsandfonts/static/js/runtime-main.da1f8c10.js",
+    "runtime-main.js.map": "/colorsandfonts/static/js/runtime-main.da1f8c10.js.map",
+    "static/js/2.146173c9.chunk.js": "/colorsandfonts/static/js/2.146173c9.chunk.js",
+    "static/js/2.146173c9.chunk.js.map": "/colorsandfonts/static/js/2.146173c9.chunk.js.map",
+    "index.html": "/colorsandfonts/index.html",
+    "precache-manifest.146937a9c8e5b5e4f2fb855a6aa23e19.js": "/colorsandfonts/precache-manifest.146937a9c8e5b5e4f2fb855a6aa23e19.js",
+    "service-worker.js": "/colorsandfonts/service-worker.js",
+    "static/css/main.14e0d005.chunk.css.map": "/colorsandfonts/static/css/main.14e0d005.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.da1f8c10.js",
+    "static/js/2.146173c9.chunk.js",
+    "static/css/main.14e0d005.chunk.css",
+    "static/js/main.cce13cf2.chunk.js"
+  ]
+}
